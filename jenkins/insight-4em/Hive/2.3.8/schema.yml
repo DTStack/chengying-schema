@@ -1,6 +1,6 @@
 parent_product_name: DTHadoop
 product_name: Hive
-product_version: 2.3.8-6
+product_version: 2.3.8
 
 service:
   mysql_metastore@DTBase.mysql@optional:
@@ -34,7 +34,7 @@ service:
       ha_namenode_id2: nn2
 
   hivesql:
-    version: 2.3.8-6
+    version: 2.3.8
     instance:
       pseudo: true
       cmd: ./waiting.sh
@@ -51,7 +51,7 @@ service:
       mysql_path: "/opt/dtstack/DTBase/mysql/bin"
 
   hive_pkg:
-    version: 2.3.8-6
+    version: 2.3.8
     instance:
       pseudo: true
       cmd: ./waiting.sh
@@ -130,7 +130,7 @@ service:
 
 
   hivemetastore:
-    version: 2.3.8-6
+    version: 2.3.8
     instance:
       config_paths:
       - start_hive.sh
@@ -150,7 +150,7 @@ service:
       hive_meta_logs: "/opt/dtstack/Hive/hivemetastore/logs"
 
   hiveserver2:
-    version: 2.3.8-6
+    version: 2.3.8
     instance:
       config_paths:
       - bin/start_hiveserver2.sh

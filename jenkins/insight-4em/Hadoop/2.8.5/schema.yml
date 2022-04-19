@@ -1,6 +1,6 @@
 parent_product_name: DTHadoop
 product_name: Hadoop
-product_version: 2.8.5-7
+product_version: 2.8.5
 
 service:
   zookeeper@DTBase.zookeeper@optional:
@@ -8,7 +8,7 @@ service:
       port: 2181
 
   hadoop_pkg:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       pseudo: true
       cmd: ./waiting.sh
@@ -242,7 +242,7 @@ service:
 
 
   hdfs_namenode:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_namenode.sh
       config_paths:
@@ -275,7 +275,7 @@ service:
       external_log_dir: ${hadoop_pkg.external_log_dir}
 
   hdfs_zkfc:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_zkfc.sh
       config_paths:
@@ -301,7 +301,7 @@ service:
       external_log_dir: ${hadoop_pkg.external_log_dir}
 
   hdfs_datanode:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_datanode.sh
       config_paths:
@@ -324,7 +324,7 @@ service:
       external_log_dir: ${hadoop_pkg.external_log_dir}
 
   hdfs_journalnode:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_journalnode.sh
       config_paths:
@@ -345,7 +345,7 @@ service:
 
 
   yarn_resourcemanager:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_resourcemanager.sh
       config_paths:
@@ -375,7 +375,7 @@ service:
       external_log_dir: ${hadoop_pkg.external_log_dir}
 
   yarn_nodemanager:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_nodemanager.sh
       config_paths:
@@ -399,7 +399,7 @@ service:
 
 
   jobhistory:
-    version: 2.8.5-7
+    version: 2.8.5
     instance:
       cmd: bin/start_jobhistory.sh
       config_paths:
