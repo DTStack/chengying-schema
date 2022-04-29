@@ -4,14 +4,14 @@ product_version: 1.3.5
 
 service:
 
-  mysql_metastore@DTBase.mysql:
+  mysql_metastore@Mysql.mysql:
     config:
       user: dtstack
       password: DT@Stack#123
       port: 3306
       db: metastore
 
-  zookeeper@DTBase.zookeeper:
+  zookeeper@Zookeeper.zookeeper:
 
   phoenix_queryserver@Phoenix.phoenix_queryserver@optional:
     config:

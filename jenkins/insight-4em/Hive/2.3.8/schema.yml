@@ -3,28 +3,15 @@ product_name: Hive
 product_version: 2.3.8
 
 service:
-  mysql_metastore@DTBase.mysql@optional:
+  mysql_metastore@Mysql.mysql@optional:
     config:
       user: dtstack
       password: DT@Stack#123
       port: 3306
       db: metastore
-  zookeeper@DTBase.zookeeper@optional:
+  zookeeper@Zookeeper.zookeeper@optional:
     config:
       port: 2181
-
-  redis@DTBase.redis@optional:
-    config:
-      password: DT@Stack#123
-      db: 1
-  pushgateway@DTBase.pushgateway@optional:
-
-  jobhistory@Hadoop.jobhistory@optional:
-
-  yarn_resourcemanager@Hadoop.yarn_resourcemanager@optional:
-    config:
-      ha_rm_id1: rm1
-      ha_rm_id2: rm2
 
   hdfs_namenode@Hadoop.hdfs_namenode@optional:
     config:

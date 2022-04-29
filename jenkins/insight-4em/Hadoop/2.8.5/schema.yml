@@ -3,7 +3,7 @@ product_name: Hadoop
 product_version: 2.8.5
 
 service:
-  zookeeper@DTBase.zookeeper@optional:
+  zookeeper@Zookeeper.zookeeper@optional:
     config:
       port: 2181
 
