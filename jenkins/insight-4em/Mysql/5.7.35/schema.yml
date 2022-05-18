@@ -129,9 +129,6 @@ service:
       log_bin_trust_function_creators: "ON"
 
 
-
-
-
     mysql_slave:
       version: 5.7.35
       instance:
