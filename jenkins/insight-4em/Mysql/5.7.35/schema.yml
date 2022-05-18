@@ -133,7 +133,7 @@ service:
 
 
     mysql_slave:
-      version: 5.7.35-1
+      version: 5.7.35
       instance:
         cmd: ./bin/mysql.sh
         config_paths:
