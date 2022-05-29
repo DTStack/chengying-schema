@@ -10,4 +10,8 @@
         2、components文件
         3、schema配置文件
         4、README
-    
+    ##### config
+    config目录下主要为Mysql包中包含的服务角色:
+        1、mysql服务：主mysql，对外提供服务
+        2、mysql_slave服务：从mysql，主要做主库mysql数据同步和备份
+        
