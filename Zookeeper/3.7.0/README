@@ -1,6 +1,6 @@
 # Zookeeper
     zookeeper制品产品包示例：
-    https://dtstack-download.oss-cn-hangzhou.aliyuncs.com/chengying/Zookeeper_3.7.0_centos7_x86_64.tar
+    https://dtstack-opensource.oss-cn-hangzhou.aliyuncs.com/chengying/Zookeeper_3.7.0_centos7_x86_64.tar
 ### zookeeper schema简要介绍
     Zookeeper目下包含一个以zookeeper版本号3.7.0命名的文件夹。
     文件夹下固定包含四个模块：
