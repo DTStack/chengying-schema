@@ -1,6 +1,6 @@
 # Mysql
     mysql制品产品包示例：
-    https://dtstack-download.oss-cn-hangzhou.aliyuncs.com/chengying/MYSQL_5.7.35_centos7_x86_64.tar
+    https://dtstack-opensource.oss-cn-hangzhou.aliyuncs.com/chengying/MYSQL_5.7.35_centos7_x86_64.tar
 
 #  Mysql schema说明
     Hive元数据使用mysql，具体版本是5.7.35，支持主备模式部署
