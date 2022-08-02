@@ -1,5 +1,5 @@
 parent_product_name: DTHadoop
-product_name: MYSQL
+product_name: Mysql
 product_version: 5.7.35
 service:
 
@@ -24,7 +24,7 @@ service:
     config:
       user: drpeco
       password: DT@Stack#123
-      encryption_mysql_password: XdVyOxV50S7MA8qMfYJJFwzHpmz0qTeiObElsfOYVcQsqjUGZEZyRW+lI76vZ/BIuHb66ac3YmAvFWJD8NOPkcWcJGdMJJK+XgVs9iIVe8NP+7hmXLR7Ah5mgI5lYqbIKQ8D82TiA5D5WuU203wUqdUARGt8s8gwLXGimoIOJjg=
+     encryption_mysql_password: XdVyOxV50S7MA8qMfYJJFwzHpmz0qTeiObElsfOYVcQsqjUGZEZyRW+lI76vZ/BIuHb66ac3YmAvFWJD8NOPkcWcJGdMJJK+XgVs9iIVe8NP+7hmXLR7Ah5mgI5lYqbIKQ8D82TiA5D5WuU203wUqdUARGt8s8gwLXGimoIOJjg=
       repl_user: repl
       repl_password: drpEco@123
       port: 3306
